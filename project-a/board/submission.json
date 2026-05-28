@@ -1,0 +1,29 @@
+{
+  "savedAt": "2026-05-28T01:06:34.452Z",
+  "groups": [
+    {
+      "id": "cdccbb76-8427-445c-9178-a393c010d5e9",
+      "name": "Blockers",
+      "color": "#2563eb"
+    },
+    {
+      "id": "331cc93b-c14b-4d63-9475-279e29a2f538",
+      "name": "Standard Work",
+      "color": "#059669"
+    },
+    {
+      "id": "72af4a58-6048-4292-acdc-14b2715fed72",
+      "name": "Minors",
+      "color": "#d97706"
+    }
+  ],
+  "tickets": [],
+  "analysis": {
+    "ambiguity1": "The Head of Advising states, \"The system needs to stop them from even asking [about prerequisites].\" This requirement defines a desired business outcome rather than a specific system behavior or UI treatment. It is vague because it does not clarify how the system should prevent students from asking. Should the system completely hide ineligible courses from the catalog (which could cause confusion and prompt more questions), or should it display them as locked/greyed out with a clear visual tooltip explaining the missing prerequisites?",
+    "ambiguity2": "",
+    "conflictSolution": "",
+    "nfr1": "",
+    "nfr2": "",
+    "nfr3": ""
+  }
+}
