@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-28T01:19:52.413Z",
+  "savedAt": "2026-05-28T01:21:13.464Z",
   "groups": [
     {
       "id": "b4ca1a11-8e8e-4a6c-9bf9-9c565d6ef71b",
@@ -22,8 +22,8 @@
     "ambiguity1": "Barcode scanning request is vague. Scanning only gives raw ISBN numbers, not book metadata. It fails to specify which third-party API (e.g., Google Books) to use for decoding ISBNs into Titles/Authors, and lacks a fallback UI for unrecognised barcodes.",
     "ambiguity2": "The auction request is vague. It lacks rules for bidding duration, minimum increments, and bid retractions. Also, since in-app payments are forbidden by Legal, it doesn't specify how defaults are handled if a winning bidder refuses to pay.",
     "conflictSolution": "Conflict: Student Union wants a 2% fee, but Legal forbids in-app payments.\nSolution: Implement an indirect ledger. Sellers mark items as 'Sold', and the system logs a 2% debt on their account. Sellers pay the fee directly to the Union's Venmo and submit the receipt ID in-app. If unpaid after 14 days, their account is auto-suspended. This enforces fees without violating payment policies.",
-    "nfr1": "",
-    "nfr2": "",
-    "nfr3": ""
+    "nfr1": "The system must restrict registration exclusively to verified '.edu' emails. Users must confirm via a one-time link before accessing marketplace features.",
+    "nfr2": "The system must force buyers and sellers to mutually agree on a designated 'Safe Exchange Zone' before unlocking the chat messaging interface.",
+    "nfr3": "The mobile app must scan and decode a standard ISBN barcode in under 2.0 seconds in normal lighting to auto-fill book metadata."
   }
 }
