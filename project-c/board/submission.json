@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-28T01:36:28.110Z",
+  "savedAt": "2026-05-28T01:36:55.246Z",
   "groups": [
     {
       "id": "b4ca1a11-8e8e-4a6c-9bf9-9c565d6ef71b",
@@ -27,6 +27,16 @@
       "type": "User Story",
       "priority": "High",
       "owner": "Thuan"
+    },
+    {
+      "id": "411cc93b-c14b-4d63-9475-279e29a2f532",
+      "title": "US002 (Mobile Ordering)",
+      "description": "As a: Student\nI want to: place a customized order via my phone\nSo that: I can skip the physical queue.\n\n- [ ] Pass: Allows adding items to a virtual cart and checking out.\n- [ ] Pass: Generates a 4-digit order confirmation number.\n- [ ] Pass: Displays real-time estimated prep time based on queue.",
+      "groupId": "e03e5c9a-8fe9-4e4b-8531-1bfa44f475a8",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "High",
+      "owner": "Khang"
     }
   ],
   "analysis": {
