@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-28T01:26:01.073Z",
+  "savedAt": "2026-05-28T01:26:38.280Z",
   "groups": [
     {
       "id": "b4ca1a11-8e8e-4a6c-9bf9-9c565d6ef71b",
@@ -57,6 +57,16 @@
       "type": "User Story",
       "priority": "Medium",
       "owner": "Thinh"
+    },
+    {
+      "id": "311cc93b-c14b-4d63-9475-279e29a2f535",
+      "title": "US005 (Transaction Fee Ledger)",
+      "description": "As a: Student Union Admin\nI want to: audit Venmo receipts to clear user transaction fees\nSo that: we can collect the 2% fee without in-app payment processing.\n\n- [ ] Pass: Admin dashboard lists sales and calculated 2% fees.\n- [ ] Pass: Admin can approve submitted Venmo receipt IDs.\n- [ ] Pass: Approving receipt clears the user's outstanding fee balance.",
+      "groupId": "e03e5c9a-8fe9-4e4b-8531-1bfa44f475a8",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "High",
+      "owner": "Hieu"
     }
   ],
   "analysis": {
