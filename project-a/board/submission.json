@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-28T01:09:55.337Z",
+  "savedAt": "2026-05-28T01:11:02.599Z",
   "groups": [
     {
       "id": "cdccbb76-8427-445c-9178-a393c010d5e9",
@@ -17,7 +17,18 @@
       "color": "#d97706"
     }
   ],
-  "tickets": [],
+  "tickets": [
+    {
+      "id": "f9814c8d-9991-40c7-a455-746a13869e80",
+      "title": "US001 (Prerequisite Check)",
+      "description": "As a: Student\nI want to: get warnings when adding a course without completing its prerequisites\nSo that: I can avoid planning an invalid course sequence.\n\n- [ ] Pass: System checks academic history for required prerequisites.\n- [ ] Pass: Displays warning modal if prerequisite is missing.\n- [ ] Pass: Marks course with warning icon but allows keeping it.",
+      "groupId": "331cc93b-c14b-4d63-9475-279e29a2f538",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
+      "owner": "Thuan"
+    }
+  ],
   "analysis": {
     "ambiguity1": "The Head of Advising states, \"The system needs to stop them from even asking [about prerequisites].\" This requirement defines a desired business outcome rather than a specific system behavior or UI treatment. It is vague because it does not clarify how the system should prevent students from asking. Should the system completely hide ineligible courses from the catalog (which could cause confusion and prompt more questions), or should it display them as locked/greyed out with a clear visual tooltip explaining the missing prerequisites?",
     "ambiguity2": "The Head of Advising states, \"override the system manually if a student has special permission.\" This requirement is vague because the term \"special permission\" is completely undefined. The notes do not clarify what qualifies as special permission (e.g., GPA thresholds, advisor discretion, dean's waiver), who holds the authority to grant it, or what administrative workflow and interface are required for an advisor to authenticate and apply this manual override.",
