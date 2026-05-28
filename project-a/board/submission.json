@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-28T01:14:00.891Z",
+  "savedAt": "2026-05-28T01:14:24.579Z",
   "groups": [
     {
       "id": "cdccbb76-8427-445c-9178-a393c010d5e9",
@@ -57,6 +57,16 @@
       "type": "User Story",
       "priority": "Medium",
       "owner": "Thinh"
+    },
+    {
+      "id": "14f7f40a-f5c6-4864-b419-1f85bda5e8c1",
+      "title": "US005 (4-Year Plan)",
+      "description": "As a: Student\n\nI want to: plan my academic roadmap up to 4 years in advance\n\nSo that: I can visualize my graduation path regardless of seat capacity.\n\n- [ ] Pass: Interface allows adding terms up to 4 years ahead.\n- [ ] Pass: Bypasses live capacity checks for future terms.\n- [ ] Pass: Clearly distinguishes Active Term from Future Draft.",
+      "groupId": "331cc93b-c14b-4d63-9475-279e29a2f538",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
+      "owner": "Hieu"
     }
   ],
   "analysis": {
