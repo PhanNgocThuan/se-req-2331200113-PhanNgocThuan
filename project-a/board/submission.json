@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-28T01:11:02.599Z",
+  "savedAt": "2026-05-28T01:12:08.474Z",
   "groups": [
     {
       "id": "cdccbb76-8427-445c-9178-a393c010d5e9",
@@ -27,6 +27,16 @@
       "type": "User Story",
       "priority": "Medium",
       "owner": "Thuan"
+    },
+    {
+      "id": "564735f1-faa3-4740-b799-6dbb514764ed",
+      "title": "US002 (Drag-and-Drop)",
+      "description": "As a: Student\nI want to: drag and drop courses from catalog into a visual weekly calendar\nSo that: I can easily see my schedule and identify time conflicts.\n\n- [ ] Pass: Features an interactive Monday-Friday weekly calendar.\n- [ ] Pass: Dropping a course places it into the correct time slot.\n- [ ] Pass: Highlights overlapping courses in red as a conflict.",
+      "groupId": "331cc93b-c14b-4d63-9475-279e29a2f538",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
+      "owner": "Khang"
     }
   ],
   "analysis": {
