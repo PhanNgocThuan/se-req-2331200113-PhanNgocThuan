@@ -1,0 +1,29 @@
+{
+  "savedAt": "2026-05-28T01:33:35.690Z",
+  "groups": [
+    {
+      "id": "b4ca1a11-8e8e-4a6c-9bf9-9c565d6ef71b",
+      "name": "Blockers",
+      "color": "#2563eb"
+    },
+    {
+      "id": "e03e5c9a-8fe9-4e4b-8531-1bfa44f475a8",
+      "name": "Standard Work",
+      "color": "#059669"
+    },
+    {
+      "id": "ca9db25f-2c7c-4740-8bfa-1a2c7be0c0b3",
+      "name": "Minors",
+      "color": "#d97706"
+    }
+  ],
+  "tickets": [],
+  "analysis": {
+    "ambiguity1": "The push notification request is ambiguous. It doesn't specify if 'students' means all users or just opted-in ones. It also lacks details on how the discount is calculated (fixed vs percentage) and what action occurs when tapped.",
+    "ambiguity2": "",
+    "conflictSolution": "",
+    "nfr1": "",
+    "nfr2": "",
+    "nfr3": ""
+  }
+}
