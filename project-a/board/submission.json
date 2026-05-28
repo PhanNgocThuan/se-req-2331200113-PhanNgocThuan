@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-28T01:12:08.474Z",
+  "savedAt": "2026-05-28T01:13:01.781Z",
   "groups": [
     {
       "id": "cdccbb76-8427-445c-9178-a393c010d5e9",
@@ -37,6 +37,16 @@
       "type": "User Story",
       "priority": "Medium",
       "owner": "Khang"
+    },
+    {
+      "id": "d57a89b0-1ebc-4d2e-ac27-3142280f1f8e",
+      "title": "US003 (8:00 AM Alert)",
+      "description": "As a: Student\n\nI want to: receive an alert when I add an 8:00 AM class to my schedule\n\nSo that: I can avoid oversleeping and find later sections.\n\n- [ ] Pass: Triggers a warning banner for any 8:00 AM course added.\n- [ ] Pass: Styles early morning slots with a yellow border.\n- [ ] Pass: Allows student to dismiss warning and keep the course.",
+      "groupId": "331cc93b-c14b-4d63-9475-279e29a2f538",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
+      "owner": "Phu"
     }
   ],
   "analysis": {
