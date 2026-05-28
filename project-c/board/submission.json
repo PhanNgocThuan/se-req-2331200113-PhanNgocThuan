@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-28T01:38:39.652Z",
+  "savedAt": "2026-05-28T01:39:01.923Z",
   "groups": [
     {
       "id": "b4ca1a11-8e8e-4a6c-9bf9-9c565d6ef71b",
@@ -67,6 +67,36 @@
       "type": "User Story",
       "priority": "Medium",
       "owner": "Hieu"
+    },
+    {
+      "id": "e1e56b8b-300f-408f-a187-ff6b0905a2fc",
+      "title": "NFR Epic 1: The Kitchen Display System must maintain local state using IndexedDB t",
+      "description": "The Kitchen Display System must maintain local state using IndexedDB to prevent crashes during network drops, syncing queue states within 5s of reconnection.",
+      "groupId": "e03e5c9a-8fe9-4e4b-8531-1bfa44f475a8",
+      "status": "todo",
+      "type": "Epic",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "6059cf3b-5adc-4cb4-b2dd-5ea41e18eace",
+      "title": "NFR Epic 2: The system must dynamically filter the menu to hide allergen-containin",
+      "description": "The system must dynamically filter the menu to hide allergen-containing items based on user settings, rendering changes in <100ms.",
+      "groupId": "e03e5c9a-8fe9-4e4b-8531-1bfa44f475a8",
+      "status": "todo",
+      "type": "Epic",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "70370959-3247-4764-b1be-fedc8fcb8bce",
+      "title": "NFR Epic 3: Finalized mobile orders must transmit to the Kitchen Display within 3.",
+      "description": "Finalized mobile orders must transmit to the Kitchen Display within 3.0 seconds max latency, triggering an auditory alert.",
+      "groupId": "e03e5c9a-8fe9-4e4b-8531-1bfa44f475a8",
+      "status": "todo",
+      "type": "Epic",
+      "priority": "Medium",
+      "owner": ""
     }
   ],
   "analysis": {
