@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-28T01:13:01.781Z",
+  "savedAt": "2026-05-28T01:14:00.891Z",
   "groups": [
     {
       "id": "cdccbb76-8427-445c-9178-a393c010d5e9",
@@ -47,6 +47,16 @@
       "type": "User Story",
       "priority": "Medium",
       "owner": "Phu"
+    },
+    {
+      "id": "e6d423cd-6f95-4f54-a23b-e3ca630eed5f",
+      "title": "US004 (Advisor Override)",
+      "description": "As a: Academic Advisor\n\nI want to: manually override prerequisite blocks for specific students\n\nSo that: they can enroll in required courses with special permission.\n\n- [ ] Pass: Advisor can click an \"Override\" button on locked courses.\n- [ ] Pass: Requires selecting a reason and typing a description.\n- [ ] Pass: Logs Advisor ID, Student ID, and timestamp to database.",
+      "groupId": "331cc93b-c14b-4d63-9475-279e29a2f538",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
+      "owner": "Thinh"
     }
   ],
   "analysis": {
