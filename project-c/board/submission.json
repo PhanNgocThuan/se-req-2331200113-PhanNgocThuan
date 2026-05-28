@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-28T01:35:26.954Z",
+  "savedAt": "2026-05-28T01:35:57.710Z",
   "groups": [
     {
       "id": "b4ca1a11-8e8e-4a6c-9bf9-9c565d6ef71b",
@@ -22,8 +22,8 @@
     "ambiguity1": "The push notification request is ambiguous. It doesn't specify if 'students' means all users or just opted-in ones. It also lacks details on how the discount is calculated (fixed vs percentage) and what action occurs when tapped.",
     "ambiguity2": "The offline requirement is vague. It doesn't define data reconciliation rules: if the kitchen marks an item 'Sold Out' while offline, how does the system prevent mobile users from ordering it? Does the mobile app queue orders or block them?",
     "conflictSolution": "Conflict: Chef needs instant 'Sold Out' sync, but IT says Wi-Fi drops for up to 10 mins.\nSolution: Make the Kitchen Display a PWA caching data in IndexedDB. If offline, the mobile app detects connection loss and warns users of delays. The system uses Predictive Thresholding (auto-marking items sold out at 5 units remaining) to prevent overselling. Upon reconnecting, logs sync, and any unfulfillable orders are automatically refunded.",
-    "nfr1": "",
-    "nfr2": "",
-    "nfr3": ""
+    "nfr1": "The Kitchen Display System must maintain local state using IndexedDB to prevent crashes during network drops, syncing queue states within 5s of reconnection.",
+    "nfr2": "The system must dynamically filter the menu to hide allergen-containing items based on user settings, rendering changes in <100ms.",
+    "nfr3": "Finalized mobile orders must transmit to the Kitchen Display within 3.0 seconds max latency, triggering an auditory alert."
   }
 }
