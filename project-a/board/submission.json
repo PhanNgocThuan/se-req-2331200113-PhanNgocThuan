@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-28T01:08:14.196Z",
+  "savedAt": "2026-05-28T01:08:45.852Z",
   "groups": [
     {
       "id": "cdccbb76-8427-445c-9178-a393c010d5e9",
@@ -21,7 +21,7 @@
   "analysis": {
     "ambiguity1": "The Head of Advising states, \"The system needs to stop them from even asking [about prerequisites].\" This requirement defines a desired business outcome rather than a specific system behavior or UI treatment. It is vague because it does not clarify how the system should prevent students from asking. Should the system completely hide ineligible courses from the catalog (which could cause confusion and prompt more questions), or should it display them as locked/greyed out with a clear visual tooltip explaining the missing prerequisites?",
     "ambiguity2": "The Head of Advising states, \"override the system manually if a student has special permission.\" This requirement is vague because the term \"special permission\" is completely undefined. The notes do not clarify what qualifies as special permission (e.g., GPA thresholds, advisor discretion, dean's waiver), who holds the authority to grant it, or what administrative workflow and interface are required for an advisor to authenticate and apply this manual override.",
-    "conflictSolution": "",
+    "conflictSolution": "Conflict: The Registrar requires that students cannot add a course to their roadmap if it is full (requiring real-time database validation), whereas the Head of Advising wants students to plan four years in advance, during which future class capacity is unpredictable and unknown.\n\nProposed Solution: Implement a dual-state roadmap system:\n\nPlanning Mode (Long-Term Roadmap): For future semesters, allow students to place any course on their 4-year schedule as an advisory plan, ignoring current capacity. The system uses historical/estimated schedules rather than live databases.\n\nRegistration Mode (Current Semester): For the active/upcoming registration term, link the roadmap directly to the live database. If a student attempts to enroll in a full class, the system displays a clear warning/alert prompting them to select an alternative section or join a waitlist, enforcing capacity limits without blocking future planning.",
     "nfr1": "",
     "nfr2": "",
     "nfr3": ""
