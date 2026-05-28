@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-28T01:35:57.710Z",
+  "savedAt": "2026-05-28T01:36:28.110Z",
   "groups": [
     {
       "id": "b4ca1a11-8e8e-4a6c-9bf9-9c565d6ef71b",
@@ -17,7 +17,18 @@
       "color": "#d97706"
     }
   ],
-  "tickets": [],
+  "tickets": [
+    {
+      "id": "411cc93b-c14b-4d63-9475-279e29a2f531",
+      "title": "US001 (Allergen Filtering)",
+      "description": "As a: Student with a food allergy\nI want to: set allergy preferences to hide dangerous dishes\nSo that: I can order safely without anxiety.\n\n- [ ] Pass: Provides allergy checkboxes (e.g., 'No Peanuts') in settings.\n- [ ] Pass: Instantly hides matching items from the menu.\n- [ ] Pass: Hidden items do not appear in search results.",
+      "groupId": "e03e5c9a-8fe9-4e4b-8531-1bfa44f475a8",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "High",
+      "owner": "Thuan"
+    }
+  ],
   "analysis": {
     "ambiguity1": "The push notification request is ambiguous. It doesn't specify if 'students' means all users or just opted-in ones. It also lacks details on how the discount is calculated (fixed vs percentage) and what action occurs when tapped.",
     "ambiguity2": "The offline requirement is vague. It doesn't define data reconciliation rules: if the kitchen marks an item 'Sold Out' while offline, how does the system prevent mobile users from ordering it? Does the mobile app queue orders or block them?",
