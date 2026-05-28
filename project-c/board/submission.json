@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-28T01:36:55.246Z",
+  "savedAt": "2026-05-28T01:37:37.100Z",
   "groups": [
     {
       "id": "b4ca1a11-8e8e-4a6c-9bf9-9c565d6ef71b",
@@ -37,6 +37,16 @@
       "type": "User Story",
       "priority": "High",
       "owner": "Khang"
+    },
+    {
+      "id": "411cc93b-c14b-4d63-9475-279e29a2f533",
+      "title": "US003 (Sold-Out Toggle)",
+      "description": "As a: Chef\nI want to: instantly mark items as 'Sold Out' on my screen\nSo that: students cannot order unavailable food.\n\n- [ ] Pass: Kitchen screen has a 'Sold Out' toggle for each item.\n- [ ] Pass: Disables order placement for that item in the mobile app.\n- [ ] Pass: Broadcasts status to all active mobile sessions instantly.",
+      "groupId": "e03e5c9a-8fe9-4e4b-8531-1bfa44f475a8",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "High",
+      "owner": "Phu"
     }
   ],
   "analysis": {
