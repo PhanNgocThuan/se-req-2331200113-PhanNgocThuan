@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-28T01:14:24.579Z",
+  "savedAt": "2026-05-28T01:15:42.396Z",
   "groups": [
     {
       "id": "cdccbb76-8427-445c-9178-a393c010d5e9",
@@ -67,6 +67,36 @@
       "type": "User Story",
       "priority": "Medium",
       "owner": "Hieu"
+    },
+    {
+      "id": "e2ac3a66-7427-4803-a8e4-1822eb0305de",
+      "title": "NFR Epic 1: Student data is sensitive. The system must enforce strict role-based a",
+      "description": "Student data is sensitive. The system must enforce strict role-based access control (RBAC) ensuring students can only access their own data, and under no circumstances can any student view another student's schedule.",
+      "groupId": "331cc93b-c14b-4d63-9475-279e29a2f538",
+      "status": "todo",
+      "type": "Epic",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "9a6f05b1-ce9f-4b25-9001-59b6affd1a26",
+      "title": "NFR Epic 2: For administrative transparency and audit compliance, the system must ",
+      "description": "For administrative transparency and audit compliance, the system must automatically log every instance where an advisor manually overrides a prerequisite, recording the advisor's ID, student's ID, timestamp, and target course.",
+      "groupId": "331cc93b-c14b-4d63-9475-279e29a2f538",
+      "status": "todo",
+      "type": "Epic",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "046bbbca-89cf-4f4c-ad14-02b069d12c7e",
+      "title": "NFR Epic 3: To accommodate student usability preferences, the catalog interface mu",
+      "description": "To accommodate student usability preferences, the catalog interface must feature an interactive drag-and-drop calendar for course scheduling and automatically trigger proactive visual warnings if a student selects a class scheduled for 8:00 AM.",
+      "groupId": "331cc93b-c14b-4d63-9475-279e29a2f538",
+      "status": "todo",
+      "type": "Epic",
+      "priority": "Medium",
+      "owner": ""
     }
   ],
   "analysis": {
